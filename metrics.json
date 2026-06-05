@@ -1,0 +1,84 @@
+{
+  "accuracy": 0.79,
+  "cv_mean": 0.789,
+  "cv_std": 0.009027735042633907,
+  "report": {
+    "<=50K": {
+      "precision": 0.5416666666666666,
+      "recall": 0.1511627906976744,
+      "f1-score": 0.23636363636363636,
+      "support": 86.0
+    },
+    ">50K": {
+      "precision": 0.8058510638297872,
+      "recall": 0.964968152866242,
+      "f1-score": 0.8782608695652174,
+      "support": 314.0
+    },
+    "accuracy": 0.79,
+    "macro avg": {
+      "precision": 0.6737588652482269,
+      "recall": 0.5580654717819582,
+      "f1-score": 0.5573122529644269,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.7490514184397163,
+      "recall": 0.79,
+      "f1-score": 0.7402529644268775,
+      "support": 400.0
+    }
+  },
+  "disparate_impact_sex": 1.0002570528886319,
+  "disparate_impact_race": 0.9780924115036265,
+  "sex_stats": [
+    {
+      "sex_label": "Female",
+      "Accuracy": 0.7435897435897436,
+      "Positive Rate": 0.9401709401709402,
+      "True Positive Rate": 1.0,
+      "False Positive Rate": 0.8108108108108109,
+      "N": 117.0
+    },
+    {
+      "sex_label": "Male",
+      "Accuracy": 0.8091872791519434,
+      "Positive Rate": 0.9399293286219081,
+      "True Positive Rate": 0.9529914529914529,
+      "False Positive Rate": 0.8775510204081632,
+      "N": 283.0
+    }
+  ],
+  "race_stats": [
+    {
+      "race_label": "White",
+      "Accuracy": 0.7964601769911505,
+      "Positive Rate": 0.9469026548672567,
+      "N": 339.0
+    },
+    {
+      "race_label": "Black",
+      "Accuracy": 0.8378378378378378,
+      "Positive Rate": 0.918918918918919,
+      "N": 37.0
+    },
+    {
+      "race_label": "Asian",
+      "Accuracy": 0.42857142857142855,
+      "Positive Rate": 0.7857142857142857,
+      "N": 14.0
+    },
+    {
+      "race_label": "Hispanic",
+      "Accuracy": 1.0,
+      "Positive Rate": 1.0,
+      "N": 7.0
+    },
+    {
+      "race_label": "Other",
+      "Accuracy": 0.6666666666666666,
+      "Positive Rate": 1.0,
+      "N": 3.0
+    }
+  ]
+}
